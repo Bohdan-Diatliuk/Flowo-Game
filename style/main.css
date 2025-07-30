@@ -136,8 +136,13 @@ header nav ul li.btn a:hover,
 
 .hero img {
     position: absolute;
-    top: -190px;
+    top: -180px;
     right: 0;
+    transition: all 500ms ease;
+}
+
+.hero img:hover {
+    transform:  scale(1.1);
 }
 
 .trending {
@@ -184,7 +189,6 @@ header nav ul li.btn a:hover,
     top: 5px;
     margin-right: 7px;
 }
-
 
 .big-text {
     padding: 50px 0;
@@ -374,4 +378,5 @@ footer hr {
 
 footer p {
     text-align: center;
+    left: -50%;
 }
